@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Be Vietnam Pro", sans-serif;
+    scroll-behavior: smooth;
+}
+.about,
+.contact,
+.features,
+.when-it-use {
+  position: absolute;
+  top: 43px;
+  left: 1166px;
+  font-weight: 600;
+}
+.about,
+.contact,
+.features {
+  left: 1462px;
+}
+.contact,
+.features {
+  left: 1672px;
+}
+.features {
+  left: 916px;
+}
+.onetouchaid {
+  position: absolute;
+  top: 42px;
+  left: 85px;
+  font-size: 36px;
+  font-family: var(--font-grape-nuts);
+  display: flex;
+  align-items: center;
+  width: 191px;
+  height: 41px;
+  text-shadow: 4px 6px 7.4px rgba(0, 0, 0, 0.25);
+}
+.when-it-use-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(200, 231, 183, 0.6);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1920px;
+  height: 126px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inter);
+}
+
+.frame-child {
+  position: absolute;
+  top: 128px;
+  left: 0px;
+  width: 1882px;
+  height: 825px;
+  object-fit: cover;
+}
+.one-tap-solution {
+  color: var(--color-black);
+}
+.one-tap-solution-container {
+  position: absolute;
+  top: 162px;
+  left: 432px;
+  display: flex;
+  align-items: center;
+  width: 1050px;
+  height: 187px;
+  filter: drop-shadow(0 4px 40px rgba(0, 0, 0, 0.15));
+}
+.frame-item {
+  position: absolute;
+  top: 563px;
+  left: 782px;
+  border-radius: 55px;
+  background-color: #ff2121;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 415px;
+  height: 100px;
+  
+}
+.emergency {
+  position: absolute;
+  top: 588px;
+  left: 901px;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-poppins);
+  color: #fff;
+  text-align: left;
+  
+}
+.we-are-here {
+  position: absolute;
+  top: 357px;
+  left: 428px;
+  font-size: var(--font-size-21xl);
+  display: flex;
+  color: var(--color-black);
+  align-items: center;
+  justify-content: center;
+  width: 1124px;
+  height: 198px;
+}
+.one-tap-solution-for-emergenci-parent {
+  position: absolute;
+  top: 142px;
+  left: 8px;
+  border-radius: var(--br-xl);
+  background-color: rgba(226, 237, 221, 0.4);
+  width: 1904px;
+  height: 825px;
+  overflow: hidden;
+  font-size: 96px;
+  color: #eef6ff;
+  font-family: var(--font-inter);
+}
+.frame-child1,
+.frame-inner,
+.rectangle-div {
+  position: absolute;
+  top: 1193px;
+  left: 183px;
+  border: 1px solid var(--color-darkseagreen);
+  box-sizing: border-box;
+  width: 457px;
+  height: 374px;
+}
+.frame-child1,
+.rectangle-div {
+  left: 749px;
+}
+.frame-child1 {
+  left: 1315px;
+}
+.frame-child2 {
+  position: absolute;
+  top: 983px;
+  left: 22px;
+  border-radius: var(--br-xl);
+  background-color: rgba(255, 255, 255, 0.52);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1875px;
+  height: 652px;
+}
+.medical {
+  margin-block-start: 0;
+  font-weight: bold;
+  /* margin-block-end: 50px; */
+}
+.medical-emergency-txt-container {
+  width: 100%;
+}
+.medical-emergency {
+  position: absolute;
+  top: 99px;
+  left: calc(50% - 188px);
+  display: flex;
+  align-items: center;
+  width: 376px;
+  height: 118px;
+}
+.medical-pack-svgrepocom-icon {
+  position: absolute;
+  top: 235px;
+  left: 189px;
+  width: 73px;
+  height: 65px;
+  overflow: hidden;
+}
+.link {
+  position: absolute;
+  height: 9.34%;
+  width: 23.54%;
+  top: 29.14%;
+  right: 67.71%;
+  bottom: 61.52%;
+  left: 8.75%;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightgoldenrodyellow-100);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.fire-fighters {
+  margin-block-start: 0;
+}
+.service {
+  margin: 0;
+  font-weight: bold;
+}
+.fire-fighters-service-container {
+  position: absolute;
+  top: 106px;
+  left: calc(50% - 188px);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 376px;
+  height: 118px;
+}
+.fire-truck-svgrepocom-icon {
+  position: absolute;
+  top: 223px;
+  left: 188px;
+  width: 77px;
+  height: 76px;
+  overflow: hidden;
+}
+.link1 {
+  position: absolute;
+  height: 9.34%;
+  width: 23.65%;
+  top: 29.14%;
+  right: 38.28%;
+  bottom: 61.52%;
+  left: 38.07%;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightgoldenrodyellow-100);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.police-services {
+  position: absolute;
+  top: 109px;
+  left: calc(50% - 188px);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 376px;
+  height: 118px;
+}
+.police-car-light-svgrepocom-icon {
+  position: absolute;
+  top: 227px;
+  left: 184px;
+  width: 84px;
+  height: 75px;
+  overflow: hidden;
+}
+.link2 {
+  position: absolute;
+  height: 9.34%;
+  width: 23.54%;
+  top: 29.14%;
+  right: 8.96%;
+  bottom: 61.52%;
+  left: 67.5%;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-lightgoldenrodyellow-100);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  color: #020202;
+}
+.types-of-services {
+  position: absolute;
+  top: 1020px;
+  left: 680px;
+  font-size: 64px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #4c5d43;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 608px;
+  height: 100px;
+}
+.frame-child3 {
+    position: absolute;
+    top: 1651px;
+    left: 8px;
+    display: flex;
+    background-color: #C8E7B7;
+    width: 1904px;
+}
+
+.frame-parent {
+  width: 100%;
+  position: relative;
+  background-color: #eee;
+  height: 4025px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+
+a{
+    color: #020202;
+}
+.para{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
+    justify-content: center;
+    width: 100%;
+    font-family: Frenak Ruhi Libre;
+    padding-top: 15%;
+}
+.OneTapEmergency{
+    color: #789461;
+    font-weight: bold;
+    text-shadow: black;
+}
+.img1{
+    position: relative;
+    height: 755px;
+    width: 1093px;
+}
+.gr{
+    color: #789461;
+}
+
+.footer-separator {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 960px);
+    background-color: gray;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1px;
+  }
+  .footer,
+  .footer-link,
+  .footer-link1 {
+    position: absolute;
+    top: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+  }
+
+  .footer-link {
+    left: calc(50% - 316.2px);
+    font-size: 13.3px;
+    width: 102.7px;
+  }
+  .footer,
+  .footer-link1 {
+    left: calc(50% - 193.8px);
+    width: 3.8px;
+  }
+  .footer-link1 {
+    left: calc(50% - 170.2px);
+    font-size: 13.6px;
+    width: 101.4px;
+  }
+  .footer1 {
+    left: calc(50% - 49px);
+    width: 3.8px;
+  }
+
+  .footer-link2,
+.footer1,
+.footer2,
+.footer3 {
+  position: absolute;
+  top: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16px;
+}
+.footer-link2 {
+  left: calc(50% - 35.4px);
+  font-size: 13.6px;
+  width: 125.5px;
+}
+.footer2,
+.footer3 {
+  left: calc(50% + 99.9px);
+  width: 3.8px;
+}
+.footer3 {
+  left: calc(50% + 113.6px);
+  font-size: 13.6px;
+  width: 212.9px;
+}
+.footer-separator-parent {
+    position: absolute;
+    top: 445px;
+    left: calc(50% - 960px);
+    width: 1920px;
+    height: 30px;
+  }
+  .lorem-ipsum-dolor {
+    position: absolute;
+    top: 188px;
+    left: 682px;
+    font-size: var(--font-size-17xl);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 485px;
+    height: 129px;
+  }
+  .footer-footer {
+    position: absolute;
+    width: 100%;
+    top: 2413px;
+    right: 0;
+    left: 0;
+    background-color: rgba(135, 166, 110, 0.79);
+    height: 505px;
+    font-size: var(--font-size-sm);
+  }
+  .frame-parent {
+    width: 100%;
+    position: relative;
+    background-color: #eee;
+    height: 4025px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }    
+    
